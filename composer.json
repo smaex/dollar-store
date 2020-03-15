@@ -1,6 +1,6 @@
 {
-    "name":        "smaex/module",
-    "description": "A template for custom Magento 2 modules.",
+    "name":        "smaex/dollar-store",
+    "description": "Sells all items for one dollar or less in Magento 2.",
     "type":        "magento2-module",
     "license":     "MIT",
     "repositories":
@@ -31,14 +31,14 @@
         ],
         "psr-4":
         {
-            "Smaex\\Module\\": "src"
+            "Smaex\\DollarStore\\": "src"
         }
     },
     "autoload-dev":
     {
         "psr-4":
         {
-            "Smaex\\Module\\Tests\\Unit\\": "tests/unit"
+            "Smaex\\DollarStore\\Tests\\Unit\\": "tests/unit"
         }
     },
     "scripts":
